@@ -9,7 +9,7 @@ if __name__ == '__main__':
     #保存原始数组
     arrayL=""
     #保存新数组
-    arrayN=[0]*10
+    arrayN=[0]*100000
     for i in range(0,lins):
         #listn = input("")
         a,b = (input("").split())
@@ -37,6 +37,6 @@ if __name__ == '__main__':
         s2 =arrayN[arrayL[0][l]]
         print("%s %s" %(s1,s2))
 
-    print(arrayL)
+    #print(arrayL)
 
     #print(arrayL[0])

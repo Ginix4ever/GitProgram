@@ -15,10 +15,10 @@ if __name__ == '__main__':
     #display(data3)
     #display(data3.columns)
     #display(data3.dtypes)
-    #display(data3.loc[2])
+    display(data3.loc[2])
 
     #display(type(data3.loc[2]))
    # display(type(data3.loc[2]))
 
-    display(data3.loc[2:4])
+    display(data3.loc[1:3])
    
